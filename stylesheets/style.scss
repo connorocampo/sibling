@@ -1,56 +1,40 @@
-@import url('https://fonts.googleapis.com/css?family=Teko:500,600');
+@import url('https://fonts.googleapis.com/css?family=Teko:400,600');
 
-// Global
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-    background: #F0EDE8;
+	background: #F0EDE8;
+	font-family: arial;
 }
 
-// Main Flex Container {
-.main-flex-container {
-    display: flex;
-    // justify-content: space-between;
-    // align-items: stretch;
-
+/* Grid */
+.container {
+	display: grid;
+	grid-template-columns: 25% 25% auto 35%;
+	grid-template-rows: 100%;
+	grid-gap: 10px;
 }
 
-// Sibling
-#sibling {
-    font-family: Teko, arial;
-    font-size: 82px;
-    color: #322D2A;
-    text-transform: uppercase;
-    letter-spacing: 15px;
-    transform: rotate(270deg);
-    border-bottom: 10px solid #322D2A;
-    background: pink;
-    padding-top: 200px;
-    // padding-right: 200px;
-    // padding-bottom: 0 !important;
-    margin-top: 500px;
+.section {
+	height: 100vh;
+	width: auto;
+	background: limegreen;
 }
 
-#images {
-    display: flex;
-    flex-direction: column;
+.section-1 {
+	background: pink;
+	display: flex;
+	justify-content: center;
 }
 
-#logo {
-    height: 100%;
-    width: 100%;
-}
-
-.vertical-text {
-    transform: rotate(270deg);
-    font-family: arial;
-    font-weight: bold;
-    font-size: 26px;
-}
-
-.sections {
-    // grid-area: sections;
+h1 {
+	background: yellow;
+	place-self: center;
+	transform: rotate(270deg);
+	text-transform: uppercase;
+	font-family: teko, arial;
+	font-size: 60px;
 }
