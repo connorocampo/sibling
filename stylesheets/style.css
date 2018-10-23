@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Teko:500,600');
 
-// Global
+/* Global */
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ body {
     background: #F0EDE8;
 }
 
-// Main Flex Container {
+/* Main Flex Container */
 .main-flex-container {
     display: flex;
     // justify-content: space-between;
@@ -18,7 +18,7 @@ body {
 
 }
 
-// Sibling
+/* Sibling */
 #sibling {
     font-family: Teko, arial;
     font-size: 82px;
@@ -29,8 +29,8 @@ body {
     border-bottom: 10px solid #322D2A;
     background: pink;
     padding-top: 200px;
-    // padding-right: 200px;
-    // padding-bottom: 0 !important;
+    padding-right: 200px;
+    padding-bottom: 0 !important;
     margin-top: 500px;
 }
 
@@ -52,5 +52,5 @@ body {
 }
 
 .sections {
-    // grid-area: sections;
+    grid-area: sections;
 }
