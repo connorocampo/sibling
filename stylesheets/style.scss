@@ -42,3 +42,18 @@ h1 {
     letter-spacing: 25px;
     margin-bottom: 50px;
 }
+
+.section-2 {
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
