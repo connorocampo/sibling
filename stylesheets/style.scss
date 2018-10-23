@@ -32,12 +32,13 @@ body {
 }
 
 h1 {
-	// background: yellow;
 	place-self: center;
 	transform: rotate(270deg);
 	text-transform: uppercase;
 	font-family: teko, arial;
 	font-size: 220px;
     font-weight: 400;
-    // letter-spacing: 25px
+    color: #322D2A;
+    letter-spacing: 25px;
+    margin-bottom: 50px;
 }
