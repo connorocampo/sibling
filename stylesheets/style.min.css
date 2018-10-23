@@ -1,1 +1,1 @@
-h1{font-size:26px}
+@import url("https://fonts.googleapis.com/css?family=Russo+One");@import url("https://fonts.googleapis.com/css?family=Teko:500,600");body{background:#F0EDE8}.main-grid-container{display:grid;grid-template-columns:1fr 1fr;grid-auto-rows:1fr}#sibling{font-family:Teko, arial;font-size:42px;text-transform:uppercase;letter-spacing:15px}
