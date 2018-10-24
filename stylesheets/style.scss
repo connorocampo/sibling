@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Teko:400,600');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 * {
 	margin: 0;
@@ -111,4 +112,22 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.box-1 p:nth-child(1) {
+    font-weight: bold;
+    font-size: 26px;
+    font-family: Oswald, arial;
+    text-transform: uppercase;
+    margin-left: 290px;
+    margin-top: 50px;
+    letter-spacing: 3px;
+}
+
+
+.box-1 p:nth-child(2) {
+    font-family: Oswald, arial;
+    margin-left: 290px;
+    font-size: 46px;
+    margin-top: -13px;
 }
