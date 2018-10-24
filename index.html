@@ -1,64 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sibling Copy</title>
-    <link rel="shortcut icon" type="image/png" href="img/logo.jpg"/>
-    <link rel="stylesheet" href="stylesheets/style.min.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Grid and Flexbox Project</title>
+	<link rel="stylesheet" href="stylesheets/style.min.css">
 </head>
 <body>
-    <div class="container">
-        <div class="section section-1">
-            <h1>Sibling</h1>
-        </div>
+	<h1 id="shoutout">A Project Inspired by <a href="https://shoptalkshow.com/" target="_blank">Shop Talk Show</a></h1>
+	<p id="message">Thanks Dave, Chris and all guests speakers for everything that you've given to the community.</p>
+	<div class="grid">
+		<div class="col col-1"><h1>Sibling</h1></div>
 
-        <div class="section section-2">
-            <img src="https://raw.githubusercontent.com/connorocampo/sibling/master/img/graphic.JPG" alt="" id="image-1">
-            <img src="img/logo.jpg" alt="" id="logo">
-        </div>
+		<div class="col col-2">
+			<img src="https://raw.githubusercontent.com/connorocampo/sibling/master/img/graphic.JPG" alt="" id="image-1">
+			<img src="https://raw.githubusercontent.com/connorocampo/sibling/master/img/logo.jpg" alt="" id="image-2">					</div>
 
-        <div class="section section-3">
-            <div>
-                <img src="img/circles.jpg" alt="" id="circles">
-                <hr>
-                <p>How to lead the push<br>For diversity in the wordplace</p>
-            </div>
-        </div>
+		<div class="col col-3">
+			<div class="col-3-container">
+			<hr>
+			<img src="https://raw.githubusercontent.com/connorocampo/sibling/master/img/circles.jpg" alt="">
+			<p>How to lead the push<br>For diversity in the wordplace</p>
+			</div><!-- /.col-3-container -->
+		</div><!-- /.col-3 -->
 
-        <div class="section section-4">
-            <div class="box box-1">
-                <p>Oct</p>
-                <p>15</p>
-            </div>
-            <div class="box box-2">
-                <hr>
-                <h3>Monthly Speaker Seriers</h3>
-                <p>Sibling</p>
-                <p>Speaker Session</p>
-                <p>No. 13</p>
-            </div>
-            <div class="box box-3">
-                <hr>
-                <div>
-                    <div class="block-1">
-                        <p>Rafa Serrano</p>
-                        <p>Creative Director</p>
-                        <p>7:00 PM</p>
-                        <p>828 W. Sixth Street</p>
-                    </div>
-                    <div class="block-2">
-                        <p class="single-p inline-block">The Rotunda</p>
-                        <p class="inline-block">Austin, Texas</p>
-                        <p class="inline-block">2017</p>
-                    </div>
-                </div>
-            </div>
-            <div class="box box-4">
-                <p>Free to public</p>
-            </div>
-        </div>
-    </div>
+		<div class="col col-4">
+			<div class="col-4-container">
+					<p id="oct">Oct</p>
+					<p id="number">15</p>
+					<hr id="hr-1">
+					<h3>Monthly Speaker Seriers</h3>
+					<p class="middle-text">
+					Sibling<br>
+					Speaker Session</br>
+					No. 13</p>
+					<hr id="hr-2">
+					<p class="bottom-text-top-right-corner">
+						Rafa Serrano<br>
+						Creative Director<br>
+						7:00 PM<br>
+						828 W. Sixth Street
+					</p>
+					<p class="bottom-left-text">The Rotunda</p>
+					<p class="bottom-right-text">
+						Austin, Texas<br>
+						2017</p>
+					<p id="bottom-center-text">Free to public</p>
+			</div><!-- /.col-4-container -->
+		</div><!-- /.col-4 -->
+
+	</div><!-- /.grid -->
 </body>
 </html>
