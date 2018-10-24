@@ -25,14 +25,19 @@ body {
 	font-weight: bold;
 }
 
-#message {
-	font-family: arial;
-	margin-top: 20px;
-	margin-bottom: 40px;
-	font-weight: 800;
+#shoutout a {
+	color: #F96C06;
 }
 
-#shoutout a {
+#message {
+	font-family: arial;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-weight: 800;
+	line-height: 30px;
+}
+
+#message a {
 	color: #F96C06;
 }
 
