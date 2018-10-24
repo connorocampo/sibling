@@ -9,7 +9,6 @@
 
 body {
 	background: #eee;
-/* 	background: #333; */
 	color: #312C29;
 	font-family: arial;
 	display: flex;
@@ -238,16 +237,17 @@ body {
 }
 
 	#message {
-		padding: 0 30px;
+		padding: 0 80px 20px 80px;
+		margin-bottom: 0;
 		color: #eee;
+		line-height: 30px;
 	}
 
 	.grid {
-		padding: 60;
-		margin-top: 100px;
+		padding: 60px;
 		transform: rotate(90deg);
-		height: 100%;
-		width: 100%;
+		height: 80%;
+		width: 80%;
 		background: none;
 	}
 }
