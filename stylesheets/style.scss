@@ -251,3 +251,21 @@ body {
 		background: none;
 	}
 }
+
+@media screen and (max-width: 430px) {
+		#message {
+		padding: 0 10px 0 35px;
+		margin-bottom: 0;
+		color: #eee;
+		line-height: 30px;
+	}
+
+	.grid {
+		transform: rotate(90deg);
+		height: 70%;
+		width: 70%;
+		background: none;
+		margin-top: -140px;
+		margin-left: 350px;
+	}
+}
