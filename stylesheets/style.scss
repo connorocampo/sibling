@@ -99,11 +99,27 @@ hr {
     // transform: rotate(90deg);
 }
 
-.section-3 div p {
+.section-3-text-1 {
     font-weight: bold;
-    font-size: 18px;
-    // display: block;
+    font-size: 38px;
+    width: 550px;
     background: yellow;
-    margin: 0;
-    padding-right: 100px;
+    margin-top: -365px;
+    margin-left: 10px;
+    // padding-right: 100px;
+    transform: rotate(270deg);
+
 }
+
+// .section-3-text-2 {
+//     font-weight: bold;
+//     font-size: 38px;
+//     width: 550px;
+//     margin-top: -118px;
+//     margin-right: -100px;
+//     background: pink;
+//     // padding: 60px;
+//     // padding-right: 100px;
+//     transform: rotate(270deg);
+//
+// }
